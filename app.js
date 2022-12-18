@@ -9,7 +9,7 @@ if (process.env.NODE_ENV !== 'production') {
 const postRoutes = require('./routes/post')
 const cors = require('cors');
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://instaclone-amul-backend-nkzo.onrender.com',
     credentials: true,          
     optionSuccessStatus: 200
 }
